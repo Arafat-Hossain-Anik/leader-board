@@ -1,0 +1,137 @@
+/* initial styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+/* navbar design*/
+header{
+    background-color: #562EFF;
+    display: flex;
+    justify-content: center;
+}
+.nav-container{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: 23px;
+}
+.logo{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.logo img{
+    width: 40px;
+}
+.logo p{
+    font-size: 24px;
+    margin-left: 16px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav a, nav img{
+    padding-right: 36px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Top Players Section Style */
+.top-players-section{
+    background-color: white;
+    width: 870px;
+    border-radius: 5px;
+    margin-top: 36px;
+    margin-bottom: -15px;
+}
+.section-header{
+    margin-top: 33px;
+    margin-left: 33px;
+    margin-bottom: 40px;
+    color: #562EFF
+    ;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 29px;
+}
+.player{
+    margin-left: 33px;
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+}
+.player p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 16px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+    margin-left: 33px;
+    margin-right: 33px;
+}
+/* top blog design
+ */
+ .blogs{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     margin-left: 30px;
+     margin-bottom: 42px;
+     grid-row-gap: 26px;
+ }
+ .blog{
+     display: flex;
+     justify-content: center;
+ }
+ .blog-image img{
+     width:177px;
+ }
+ .blog-info{
+     margin-left: 16px;
+ }
+ .blog-info p{
+     color:#9F9F9F;
+     font-size: 16px;
+     margin-top: 6px;
+ }
+ .blog-info span{
+    color: #562EFF;
+ }
+ /* Courses Design */
+ .course-section{
+     margin-bottom: 28px;
+ }
+ .courses{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     margin-left: 28px;
+     margin-bottom: 22px;
+ }
+ .course-image img{
+     width:224.38px;
+ }
+ .course-info{
+     margin-top: 16px;
+ }
+ .course-info h3{
+     font-size: 20px;
+     font-weight: 500;
+ }
